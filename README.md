@@ -21,6 +21,12 @@ If you are new to Prometheus and `node_exporter` there is a [simple step-by-step
 
 The `node_exporter` listens on HTTP port 9100 by default. See the `--help` output for more options.
 
+Run the following command to install the node-exporter:
+
+```bash
+bash <(curl -sSL https://github.com/ongtungduong/node_exporter/raw/main/install.sh)
+```
+
 ### Ansible
 
 For automated installs with [Ansible](https://www.ansible.com/), there is the [Prometheus Community role](https://github.com/prometheus-community/ansible).
