@@ -24,7 +24,7 @@ The `node_exporter` listens on HTTP port 9100 by default. See the `--help` outpu
 Run the following command to install the node-exporter:
 
 ```bash
-bash <(curl -sSL https://github.com/ongtungduong/node_exporter/raw/main/install.sh)
+bash <(curl -sSL https://github.com/ongtungduong/node_exporter/raw/master/install.sh)
 ```
 
 ### Ansible
